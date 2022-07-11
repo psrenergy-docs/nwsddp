@@ -6,7 +6,7 @@ description: ""
 permalink: /
 ---
 
-# Welcome to NwSDDP converter
+# Welcome to the NwSDDP converter
 
 ## Version 3.6.7
 
