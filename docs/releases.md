@@ -5,7 +5,7 @@ nav_order: 2
 
 # Version 3.6.7
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.7-setup.exe)
 
 ## Corrections
 
@@ -13,20 +13,16 @@ nav_order: 2
 
 # Version 3.6.6
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.25-setup.zip)
-
 ## Corrections
 
 * Registers components required during installation in order to run the program.
 
 # Version 3.6.5
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.24-setup.zip)
-
 ## New features
 
 * Support for the hydrological trend file by stations (vazpast). It should be enabled through the new option “Convert hydrological trend data by station, if available”.
-  * Hydrological bias by REE is not supported (eafpast).
+* Hydrological bias by REE is not supported (eafpast).
 
 ## Corrections
 
