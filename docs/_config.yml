@@ -2,7 +2,7 @@ title: "NwSddp - NEWAVE TO SDDP DATABASE CONVERTER"
 remote_theme: psrenergy/just-the-docs
 logo: assets/images/psr_logo.png
 
-psr_model: "NwSDDP Converter"
+psr_model: "NwSDDP"
 
 #adding zoom in images
 zoom_img_enabled: true
