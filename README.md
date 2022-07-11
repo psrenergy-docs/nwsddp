@@ -1,2 +1,2 @@
-# PSR docs template
-Template documentation repository for PSR
+# NwSddp
+Documentation repository related to the NwSDDP database converter
