@@ -1,0 +1,16 @@
+title: "PSR docs template"
+remote_theme: psrenergy/just-the-docs
+logo: assets/images/psr_logo.png
+
+psr_model: "PSR docs"
+
+#adding zoom in images
+zoom_img_enabled: true
+
+#dark/light mode
+change_color_enabled: true
+color_scheme: "dark"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+footer_content: "Copyright &copy; 2022 PSR - <a href='https://www.psr-inc.com' target='_blank'>psr-inc.com</a>"
