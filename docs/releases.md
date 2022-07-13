@@ -44,7 +44,7 @@ nav_order: 2
 
 ## Corrections
 
-* Corrects sense of capabilities in interconnection modification data.
+* Corrects the directions of the interconnection capacities in the modification data.
 
 # Version 3.6.2
 
@@ -94,9 +94,9 @@ nav_order: 2
 
 ## New features
 
-* Converts Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Joint Reservoir.
+* Converts the Energy Equivalent Reservoirs (Reservatórios de Energia Equivalentes - REE) to the SDDP model as Joint Reservoirs.
 * Adds new SDDP 17 compliant option to convert REE risk aversion curve data into Joint Reservoir Alert Energy Constraint with % data.
-  * Enable “Convert CAR (Risk Aversion Curve) to Joint Reservoir Constraints” to use the feature.
+  * Activate the “Converter CAR em restricoes de conjunto de reservatorios" to use this feature which will convert the Risk Aversion Curves into Joint Reservoir Constraints.
 
 # Version 3.5.26
 
@@ -226,7 +226,7 @@ nav_order: 2
 
 ## New features
 
-* Possibility of representing non-simulated Newave plants as Renewable Sources in SDDP using the `USINA_NAO_SIMULADA` block in the modification file. See manual.
+* Possibility of representing non-simulated Newave plants as Renewable Sources in SDDP using the `USINA_NAO_SIMULADA` block in the modification file. Please check the manual.
 
 ## Corrections
 
