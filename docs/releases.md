@@ -230,16 +230,15 @@ nav_order: 2
 
 ## Corrections
 
-* Treatment of the initial and final stages of the structural CVUs (Unit Variable Cost) of thermoelectric plants.
+* Treatment of the initial and final stages of the structural CVUs ("CVUs estruturais" in portuguese) of thermoelectric plants.
 * Update of the correction in the rounding of Minimum Generation of Thermal Power Plants value: using double precision for the verification and truncation of the minimum generation value.
-
 
 # Version 3.5.10
 
 ## Corrections
 
 * Correction in the conversion of the data of modifications of the sum of interconnection: it considers information of the final month to open the limits of the not informed steps.
-* Corrects data reading of small plants and the application of the depth of the landings.
+* Corrects data reading of small plants and the application of the profundidade dos patamares
 
 
 # Version 3.5.9
@@ -292,8 +291,7 @@ nav_order: 2
 ## Corrections
 
 * Bug fix in the option to automatically rename elements with duplicate names when the name has 12 characters filled.
-* Bug fix when the option “Controllable spillage in all plants” is disabled.
-
+* Bug fix when the option `Vertimento controlável em todas as usinas`("Controllable spillage in all plants") is disabled.
 
 # Version 3.5.3
 
@@ -368,13 +366,11 @@ nav_order: 2
 
 * Correction in reading error of ARQUIVOS.DAT file due to the inclusion of new equivalent reservoir files and electrical restrictions.
 
-
 # Version 3.4.2
 
 ## New features
 
-* Flexibility in reading data for modifying the registration of hydroelectric plants to accept the definition of chronological minimum flow data for the years before (“PRE”) and after (“POS”) the study.
-
+* Flexibility in reading data related to modifying the registration of hydroelectric plants to accept the definition of chronological minimum flow data for the years before (“PRE”) and after (“POS”) the study.
 
 # Version 3.4.1
 
@@ -382,7 +378,6 @@ nav_order: 2
 
 * The maximum number of interconnection aggregation modifications has been increased.
 * New registry modification file (MDC) for the 2023 Decennial Expansion Plan (Plano Decenal de Expansão - PDE 2023).
-
 
 # Version 3.4
 
@@ -398,26 +393,25 @@ nav_order: 2
 
 * Fixed an error in converting fuel data to zero defined cost fuels for the entire study horizon. These fuels were not converted to SDDP and the database was inconsistent.
 
-
 # Version 3.2
 
 ## New features
 
-* The conversion of the time-varying minimum defluence (minimum flow) data, associated with the VAZMINT parameter of the MODIF.DAT file, was included.
+* The conversion of the time-varying minimum defluence (minimum flow) data, associated with the VAZMINT parameter of the MODIF.DAT file has been included.
 
 
 # Version 3.1
 
 ## New features
 
-* The conversion of parameters associated with the CVaR risk aversion methodology was included.
+* The conversion of the parameters associated with the CVaR aversion risk methodology has been included
 * The following default parameters for SDDP execution were changed:
   * Number of series changed from 80 to 200
   * Maximum number of iterations changed from 7 to 8
   * Minimum number of iterations equal to maximum number of iterations for rounds with CVaR
   * Penalty for violation of minimum defluence changed from 0.1 BRL/hm3 to 40,000 BRL/hm3.
   * New option to use absolute seed set as default.
-  * Option for seed 33013 (SEED 33013) disabled.
+  * Option related the 33013 seed (`SEED 33013`) has been disabled.
 
 
 # Version 3.0
