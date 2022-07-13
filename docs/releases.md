@@ -44,7 +44,7 @@ nav_order: 2
 
 ## Corrections
 
-* Corrects sense of capabilities in interconnect modification data.
+* Corrects sense of capabilities in interconnection modification data.
 
 # Version 3.6.2
 
@@ -87,16 +87,16 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in the conversion of Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Reservoir Set.
+* Correction in the conversion of Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Joint Reservoir.
 * Correction in the minimum generation data to consider programmed unavailability modification.
 
 # Version 3.5.27
 
 ## New features
 
-* Converts Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Reservoir Set.
-* Adds new SDDP 17 compliant option to convert REE risk aversion curve data into Reservoir Set Alert Energy Constraint with % data.
-  * Enable “Convert CAR (Risk Aversion Curve) to Reservoir Set Constraints” to use the feature.
+* Converts Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Joint Reservoir.
+* Adds new SDDP 17 compliant option to convert REE risk aversion curve data into Joint Reservoir Alert Energy Constraint with % data.
+  * Enable “Convert CAR (Risk Aversion Curve) to Joint Reservoir Constraints” to use the feature.
 
 # Version 3.5.26
 
@@ -109,7 +109,7 @@ nav_order: 2
 
 ## Corrections
 
-* Ignores non-existent exchanges in exchange grouping data.
+* Ignores non-existent interconnections in interconnection grouping data.
 * Enlarges dimensions of the options screen.
 
 # Version 3.5.24
@@ -127,19 +127,19 @@ nav_order: 2
 
 ## New features
 
-* Option to use the maximum inflow from the history in the definition of the table height x defluence of the tailwater (enabled by default).
+* Option to use the maximum outflow from the history in the definition of the table Elevation x Tailwater Outflow (enabled by default).
 
 ## Corrections
 
-* Improvement in the calculation of the table height x deflects of the tailwater, avoiding decreasing values of height.
+* Improvement in the calculation of the table Elevation x Tailwater Outlflow, avoiding decreasing values of elevation.
 * Correction in the treatment of the minimum generation constraint.
 
 # Version 3.5.22
 
 ## New features
 
-* `VERTMN` Block of the MDC to define minimum spilling for hydroelectric plants (SDDP 16).
-* MDC for PMO 2021-02 without using fictitious plants to model spilling.
+* `VERTMN` Block of the MDC to define minimum spillage for hydroelectric plants (SDDP 16).
+* MDC for PMO 2021-02 without using fictitious plants to model spillage.
 
 ## Corrections
 
@@ -161,7 +161,7 @@ nav_order: 2
 
 ## Corrections
 
-* Correction of the maximum value of the table height x tailwater for plants with influence of spilling on the tailwater.
+* Correction of the maximum value of the table Elevation x Tailwater for plants with influence of spillage on the tailwater.
 
 # Version 3.5.18
 
@@ -171,8 +171,8 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in the table height x tailwater when a plant is influenced by spillage in the tailwater. In this version, the historical maximum inflow is also considered for the calculation of the points in the table when the plant is influenced by spillage in the tailwater.
-* Reduction of the tolerance between minimum/maximum height to consider valid a table height x volume.
+* Correction in the table Elevation x Ttailwater when a plant is influenced by spillage on the tailwater. In this version, the historical maximum outflow is also considered for the calculation of the points in the table when the plant is influenced by spillage on the tailwater.
+* Reduction of the tolerance between minimum/maximum elevation to consider valid a table Elevation x Storage.
 
 
 # Version 3.5.17
@@ -186,7 +186,7 @@ nav_order: 2
 
 ## Corrections
 
-* Bug fix in reading of the height x tailwater polynomials of hydroelectric plants introduced in version 3.5.15.
+* Bug fix in reading of the Elevation x Tailwater polynomials of hydroelectric plants introduced in version 3.5.15.
 * Bug fix that always enabled Newave criteria for run-of-river hydropower plants classification.
 
 
@@ -195,7 +195,7 @@ nav_order: 2
 ## New features
 
 * Option (default) to classify hydropower plants as run-of-river using the Newave criteria.
-* MDC `CONFIG` block to redefine parameters used in the conversion process. In this version, `TOL_FIO_DAGUA` is available to configure the difference between maximum and minimum volume to classify a plant as a run-of-river (alternative to the previous option).
+* MDC `CONFIG` block to redefine parameters used in the conversion process. In this version, `TOL_FIO_DAGUA` is available to configure the difference between maximum and minimum storage to classify a plant as a run-of-river (alternative to the previous option).
 
 
 # Version 3.5.14
@@ -230,7 +230,7 @@ nav_order: 2
 
 ## Corrections
 
-* Treatment of the initial and final stages of the structural CVUs of thermoelectric plants.
+* Treatment of the initial and final stages of the structural CVUs (Unit Variable Cost) of thermoelectric plants.
 * Update of the correction in the rounding of Minimum Generation of Thermal Power Plants value: using double precision for the verification and truncation of the minimum generation value.
 
 
@@ -280,7 +280,7 @@ nav_order: 2
 ## New features
 
 * Option to consider zero scheduled unavailability in the first calendar year for maintenance-free plants (disabled by default).
-* Editing the outputs selected by default of a converted case through the index.dat file ('res' folder in the program's installation directory).
+* Editing the outputs selected by default of a converted case through the 'index.dat' file ('res' folder in the program's installation directory).
 
 ## Corrections
 
@@ -292,7 +292,7 @@ nav_order: 2
 ## Corrections
 
 * Bug fix in the option to automatically rename elements with duplicate names when the name has 12 characters filled.
-* Bug fix when the option “Controllable spilling in all plants” is disabled.
+* Bug fix when the option “Controllable spillage in all plants” is disabled.
 
 
 # Version 3.5.3
@@ -318,7 +318,7 @@ nav_order: 2
 
 ## New features
 
-* Treatment of non-controllable and partially controllable spilling options.
+* Treatment of non-controllable and partially controllable spillage options.
 * Reading of the Minimum Thermal Generation GTMIN.DAT file.
 * Reading of the Minimum Hydroelectric Generation GHMIN.DAT file.
 * Reading of the Electrical Restrictions of Equivalent Energy Reservoir RE.DAT file.
@@ -331,7 +331,7 @@ nav_order: 2
 * Ignores preventive rationing option.
 * Default acronym for North (NO) and Northeast (NE) systems.
 * Correction in the automatic acronym for abbreviated names (eg: T. PIRES = TP).
-* Improved filling of standby volume data (VMAXT).
+* Improved filling of standby storage data (VMAXT).
 
 
 # Version 3.5
@@ -342,8 +342,8 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in reading exchanges grouping data for more than 3 levels.
-* Changing the number of exchange sum modifications.
+* Correction in reading interconnection grouping data for more than 3 levels.
+* Changing the number of sum of interconnections modifications.
 * Reading of thermal expansion data for dates prior to the start of the study.
 
 
