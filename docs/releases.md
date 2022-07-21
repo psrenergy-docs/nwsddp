@@ -9,7 +9,7 @@ nav_order: 2
 
 ## Corrections
 
-* Warns when there is a modification of non-existing plant instead of showing error and interrupting the conversion.
+* Warns when there is a modification of a non-existing plant instead of showing error and interrupting the conversion.
 
 # Version 3.6.6
 
@@ -21,23 +21,23 @@ nav_order: 2
 
 ## New features
 
-* Support for the hydrological tendency file by stations (vazpast file). It should be enabled through the new option “Convert hydrological tendency data by station, if available”.
+* Support for the hydrological tendency file related to the gauging stations (vazpast file). It should be enabled through the new “Convert hydrological tendency data by station, if available” option.
 * Hydrological tendency by Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) is not supported (eafpast file).
 
 ## Corrections
 
-* Correction in the format of the interconnection registration data.
+* Correction in the format of the interconnection registry data.
 
 # Version 3.6.4
 
 ## New features
 
-* Adds to the registration modification file format (MDC) a field for the cost of curtailment of renewables. Standard value of R$ 100.00.
-* Option enabled by default: Use Newave penalty data.
+* Adds to the registraty modification file format (MDC) a field for the curtailment cost of renewables. The default value is R$ 100.00.
+* Option enabled by default: use Newave penalty data.
 
 ## Corrections
 
-* Minimum thermal generation no longer modeled as a generation constraint. Reverts what's new in version 3.5.30.
+* Minimum thermal generation is no longer modeled as a generation constraint. Reverts what has been introduced in version 3.5.30.
 * Adds interconnection and interconnection sum modification for the first month of the study.
 
 # Version 3.6.3
@@ -51,14 +51,14 @@ nav_order: 2
 ## Corrections
 
 * Fixes rounding error to prevent the historical unavailability factor from being bigger than the forced one.
-* Updates name of minimum generation constraints of plants with the name of the plant.
+* Updates the name of the minimum generation constraints of plants with the name of the plant.
 
 # Version 3.6.1
 
 ## Corrections
 
-* Correction in additional data from hydroelectric plants that prevented running the simulation in SDDP 17.
-* Updated default execution options to SDDP 17.
+* Correction in the hydro complementary data that was preventing simulatios with SDDP version 17.
+* The default execution options have been updated to be the ones related to SDDP 17.
 
 # Version 3.6.0
 
@@ -74,7 +74,7 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in the registration data and modification of thermal plants.
+* Correction in the registry and modification data of thermal plants.
 
 # Version 3.5.29
 
@@ -87,7 +87,7 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in the conversion of Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP Joint Reservoir.
+* Correction in the conversion of Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) to SDDP's Joint Reservoir representation.
 * Correction in the minimum generation data to consider programmed unavailability modification.
 
 # Version 3.5.27
@@ -95,22 +95,22 @@ nav_order: 2
 ## New features
 
 * Converts the Energy Equivalent Reservoirs (Reservatórios de Energia Equivalentes - REE) to the SDDP model as Joint Reservoirs.
-* Adds new SDDP 17 compliant option to convert REE risk aversion curve data into Joint Reservoir Alert Energy Constraint with % data.
-  * Activate the `Converter CAR em restricoes de conjunto de reservatorios` ("Convert CAR to Joint Reservoir Constraints") to use this feature which will convert the Risk Aversion Curves into Joint Reservoir Constraints.
+* Adds new SDDP 17 compliant option to convert the REE risk aversion curve data into Joint Reservoir Alert Energy Constraint beind defined as % RHS.
+  * Activate the `Converter CAR em restricoes de conjunto de reservatorios` ("Convert RAC to Joint Reservoir Constraints") to use this feature which will convert the Risk Aversion Curves into Joint Reservoir Constraints.
 
 # Version 3.5.26
 
 ## Corrections
 
 * Correction in the reading of the initial storage by subsystems.
-* Correction in penalties treatment when Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) does not exist.
+* Correction in penalty treatment when the Energy Equivalent Reservoir (Reservatório de Energia Equivalente - REE) does not exist.
 
 # Version 3.5.25
 
 ## Corrections
 
 * Ignores non-existent interconnections in interconnection grouping data.
-* Enlarges dimensions of the options screen.
+* Enlarges dimensions of the NwSDDP options screen.
 
 # Version 3.5.24
 
@@ -127,7 +127,7 @@ nav_order: 2
 
 ## New features
 
-* Option to use the maximum inflow from the history in the definition of the table Total Outflow x Tailwater Elevation (enabled by default).
+* Option to use the maximum inflow from the history in the definition of the `Total Outflow x Tailwater Elevation` table (enabled by default).
 
 ## Corrections
 
@@ -149,7 +149,7 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in reading Newave thermal class modification data (PMO 2021-01).
+* Correction in reading the Newave thermal class modification data (PMO 2021-01).
 
 # Version 3.5.20
 
@@ -161,7 +161,7 @@ nav_order: 2
 
 ## Corrections
 
-* Correction of the maximum value of the table Elevation x Tailwater for plants with influence of spillage on the tailwater.
+* Correction of the maximum value of the `Elevation x Tailwater` table for plants with influence of spillage on the tailwater elevation.
 
 # Version 3.5.18
 
@@ -171,9 +171,8 @@ nav_order: 2
 
 ## Corrections
 
-* Correction in the table Total Outflow x Tailwater Elevation when a plant is influenced by spillage on the tailwater. In this version, the historical maximum inflow is also considered for the calculation of the points in the table when the plant is influenced by spillage on the tailwater.
-* Reduction of the tolerance between minimum/maximum elevation to consider valid a table Elevation x Storage.
-
+* Correction in the `Total Outflow x Tailwater Elevation` table when a plant is influenced by spillage on the tailwater elevation. In this version, the historical maximum inflow is also considered for the calculation of the points in the table when the plant is influenced by spillage on the tailwater elevation.
+* Reduction of the tolerance between minimum/maximum elevation to consider a valid `Elevation x Storage` table.
 
 # Version 3.5.17
 
@@ -189,14 +188,12 @@ nav_order: 2
 * Bug fix in reading of the Elevation x Tailwater polynomials of hydroelectric plants introduced in version 3.5.15.
 * Bug fix that always enabled Newave criteria for run-of-river hydropower plants classification.
 
-
 # Version 3.5.15
 
 ## New features
 
 * Option (default) to classify hydropower plants as run-of-river using the Newave criteria.
 * MDC `CONFIG` block to redefine parameters used in the conversion process. In this version, `TOL_FIO_DAGUA` is available to configure the difference between maximum and minimum storage to classify a plant as a run-of-river (alternative to the previous option).
-
 
 # Version 3.5.14
 
@@ -208,7 +205,7 @@ nav_order: 2
 
 ## Corrections
 
-* Compatibility of renewable data for SDDP 16.
+* Compatibility of renewable data related to SDDP 16.
 * Correction in the action of the buttons `Procurar` (Search) of data folder and MDC file.
 
 # Version 3.5.12
@@ -221,12 +218,11 @@ nav_order: 2
 
 * Correction in the treatment of systems in the application of the `USINA_NAO_SIMULADA` block (plant not individually simulated block) in PDE 29.
 
-
 # Version 3.5.11
 
 ## New features
 
-* Possibility of representing plants not individually simulated of Newave as Renewable Sources in SDDP using the `USINA_NAO_SIMULADA` block in the modification file. Please check the manual for more informations.
+* Possibility of representing `plants not individually simulated` of Newave ("Usinas não simuladas") as Renewable Sources in SDDP using the `USINA_NAO_SIMULADA` block in the modification file. Please check the manual for more informations.
 
 ## Corrections
 
@@ -239,7 +235,6 @@ nav_order: 2
 
 * Correction in the conversion of the data of modifications of the sum of interconnection: it considers information of the final month to open the limits of the not informed steps.
 * Corrects data reading of small plants and the application of the depth of load blocks.
-
 
 # Version 3.5.9
 
@@ -259,20 +254,17 @@ nav_order: 2
 
 * Correction in the conversion of interconnection modifications data: reduces the tolerance of the difference between two consecutive months to consider the modification.
 
-
 # Version 3.5.7
 
 ## Corrections
 
 * Corrects treatment of the additional load in the total demand of a system.
 
-
 # Version 3.5.6
 
 ## Corrections
 
 * Reading the configuration of the number of years of scheduled maintenance to be considered when reading the thermal plant maintenance file (0, 1 or 2).
-
 
 # Version 3.5.5
 
@@ -284,7 +276,6 @@ nav_order: 2
 ## Corrections
 
 * Adjusts an inflexible portion of the thermal generation when it exceeds the remaining installed power during maintenance.
-
 
 # Version 3.5.4
 
@@ -310,7 +301,6 @@ nav_order: 2
 * Generation of names for small plants.
 * Removes persistence from the `vazoesC.dat` reading configuration.
 * Removes a factor of 0.995 from the converted GTMIN/minimum thermal generation value.
-
 
 # Version 3.5.1
 
@@ -351,7 +341,6 @@ nav_order: 2
 
 * Reading the `REE.DAT` file to consider equivalent energy reservoirs. With that, the converter starts to correctly interpret the `CONFHD.DAT` file.
 * Inclusion of a new MDC file for PMO cases from April/2016.
-
 
 # Version 3.4.3
 
@@ -399,7 +388,6 @@ nav_order: 2
 
 * The conversion of the time-varying minimum defluence (minimum flow) data, associated with the `VAZMINT` parameter of the `MODIF.DAT` file has been included.
 
-
 # Version 3.1
 
 ## New features
@@ -412,7 +400,6 @@ nav_order: 2
   * Penalty for violation of minimum defluence changed from 0.1 BRL/hm3 to 40,000 BRL/hm3.
   * New option to use absolute seed set as default.
   * Option related the 33013 seed (`SEED 33013`) has been disabled.
-
 
 # Version 3.0
 
@@ -429,7 +416,6 @@ nav_order: 2
 * A verification to define penalty for minimum operating storage constraints as default SDDP, in cases where the accumulated production factor of downstream plants is less than zero (pumps), was included.
 * Changed formats of generated files and order of elements in order to ensure compatibility with the format used by the SDDP graphical interface when saving data.
 
-
 # Version 2.8
 
 ## New features
@@ -440,13 +426,12 @@ nav_order: 2
 * The converter identifies pairs of hydroelectric plants located in different systems and associated with the same hydrological station. For each pair, the unpowered plant is automatically considered as a ficticious plant and is removed from the configuration. In addition, the real power plant is connected to the cascade of the ficticious power plant's system. If both plants do not have motorization, the converter will try to identify the fictitious plant through the presence of the 'FIC' marker in its name. If this marker is found, the converter will ask the user to confirm that the plant is truly fictitious.
 * Added protection for reading total energy market data in inconsistent format.
 
-
 # Version 2.7
 
 ## New features
 
 * The extension of the Risk Aversion Curve (Curva de Aversão a Risco - CAR) reading was implemented with the option “Penalty in the minimum storage”. When this option is selected, the 'CAR' is not represented by system and the minimum operative storage data are penalized based on the CAR cost indicated for each system and the plant's average accumulated production factor.
-* There is a limitation of Newave, which requires that real systems must have at least one hydroelectric plant in operation at all stages of the study. Due to this, EPE (Energy Research Company) made, in the 2019 Decennial Plan, a special model for the Belo Monte, Tapajós and others plants, which includes a fictitious machine with a power equal to 1 MW and maximum turbine power equal to 1 m3/s entering the setup start. An option that aims to try to identify these plants and correct the configuration in the creation of the SDDP database was created. This option can be selected by the user in the “Options” screen in the interface.
+* There is a limitation of Newave, which requires that real systems must have at least one hydroelectric plant in operation at all stages of the study. Due to this, EPE (Energy Planning Company) made, in the 2019 Decennial Plan, a special model for the Belo Monte, Tapajós and others plants, which includes a fictitious machine with a power equal to 1 MW and maximum turbine power equal to 1 m3/s entering the setup start. An option that aims to try to identify these plants and correct the configuration in the creation of the SDDP database was created. This option can be selected by the user in the “Options” screen in the interface.
 * A verification on the consistency between the power of machines added in the hydroelectric expansion file (`EXPH.DAT`) and the hydroelectric plant registration file (`HIDR.DAT`) was added.
 * The maximum turbining outflow of hydroelectric plants considered for the calculation of the table Total Outflow x Tailwater Elevation is now based on the highest turbine value over the entire study horizon.
 
@@ -456,14 +441,13 @@ nav_order: 2
 * It was fixed an error in the initialization of the number of machines of existing hydroelectric plants with expansion, which caused, in some cases, the number of machines, the total power and the maximum turbining outflow of the plant to be above the correct value.
 * It was fixed an error in printing of the inflow history file.
 
-
 # Version 2.6
 
 ## New features
 
 * As of this version, the NwSddp converter considers the conversion of Newave version 14 data as the default option. An option has been included for converting data in the format of previous versions, which can be selected through the `Opções > Opções de execução` (“Options > Execution Options”) screen in the interface of NwSddp. The difference between the versions consists in the fact that the data from versions prior to 14 admit data of “time-variable deficit cost”, whose file name is indicated in record 31 of the `arquivos.dat` file. In turn, data from versions after 14 indicate in the same record the data file of "grouping of interconnections".
 * Conversion of interconnections aggregation data has been included. These data, present in Newave from version 14 onwards, are converted to SDDP and represented as constraints of sum of interconnections flows.
-* The maximum total outflow point for creating the table `Total Outflow x Tailwater Elevation` is now obtained as a function of the maximum inflow in the history.
+* The maximum total outflow point for creating the `Total Outflow x Tailwater Elevation` table is now obtained as a function of the maximum inflow in the history.
 * The `Area` (constant) field, used by SDDP to calculate the evaporation of run-of-river plants, is now also calculated for the other plants.
 
 ## Corrections
