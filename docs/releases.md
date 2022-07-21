@@ -5,7 +5,7 @@ nav_order: 2
 
 # Version 3.6.7
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.7-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.8-setup.exe)
 
 ## Corrections
 
