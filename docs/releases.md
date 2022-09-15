@@ -3,9 +3,20 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.10
+# Version 3.6.11
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.10-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.11-setup.exe)
+
+## Fixes
+
+* Fix hydroplants association with equivalent reservoirs (REE).
+
+* Fix penalty fixed cost units when using the option to consider Newave's penalty values.
+
+  * When the penalty cost entered in GHMIN in penalid.dat is 0 R$/MWh, it will be considered automatic calculation on Sddp.
+
+
+# Version 3.6.10
 
 ## New features
 
