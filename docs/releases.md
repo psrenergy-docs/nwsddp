@@ -3,9 +3,22 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.11
+# Version 3.6.12
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.11-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.12-setup.exe)
+
+## Fixes
+
+* Update hydroplants modifications file format.
+
+* Adds registry modification file (MDC) for September 2022 PMO. This MDC explicitly disables Candonga hydroplant.
+
+## New features
+
+* The conversion process will ignore the registry modification file (MDC) if the option to use it is left unchecked. Previous versions would use any residual/existing MDC file in the input case folder.
+
+
+# Version 3.6.11
 
 ## Fixes
 

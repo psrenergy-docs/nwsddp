@@ -8,9 +8,9 @@ permalink: /
 
 # Welcome to the NwSDDP converter
 
-## Version 3.6.11
+## Version 3.6.12
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.11-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.12-setup.exe)
 
 ## Support or Contact
 
