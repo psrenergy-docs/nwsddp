@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.12
+# Version 3.6.13
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.12-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.13-setup.exe)
+
+## Fixes
+
+* Fix hydroplants association with equivalent reservoirs (REE).
+
+
+# Version 3.6.12
 
 ## Fixes
 
