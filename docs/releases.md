@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.13
+# Version 3.6.15
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.13-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.15-setup.exe)
+
+## Fixes
+
+* Fix thermal plants fuel cost values. At the specific condition where a modification has an initial date other than the study's and it has a specific final date, in previous versions the converter would repeat the modification value until the study's final date. This behaviour is now fixed and the specified dates are used.
+
+
+# Version 3.6.13
 
 ## Fixes
 
