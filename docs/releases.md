@@ -3,9 +3,18 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.13
+# Version 3.6.15
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.13-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.15-setup.exe)
+
+## Updates
+
+* Adds interconnection modification tolerance option. This new tolerance, with default value of 2 MW, controls how many interconnection modifications are created. If two consecutive modification values are below this specified tolerance, no modification are created on Sddp database.
+
+* Increases minimum and maximum number of convergence iterations from 8 to 12.
+
+
+# Version 3.6.13
 
 ## Fixes
 
