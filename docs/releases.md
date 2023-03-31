@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.15
+# Version 3.6.16
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.15-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.16-setup.exe)
+
+## Fixes
+
+* Updates Thermal plant minimum generation file format for Sddp 17.2, fixing a bug that this constraint could be ignored.
+
+
+# Version 3.6.15
 
 ## Updates
 
