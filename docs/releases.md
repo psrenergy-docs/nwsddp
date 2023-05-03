@@ -3,9 +3,20 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.6.16
+# Version 3.6.17
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.16-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.17-setup.exe)
+
+## Fixes
+
+* Fixes a bug when converting a small plant to renewable plant when their generation is set to 0 for all stages of the study.
+
+## Updates
+
+* Adds registry modification file (MDC) for May 2023 PMO. This MDC includes new small plants and additional loads (c_adic).
+
+
+# Version 3.6.16
 
 ## Fixes
 
