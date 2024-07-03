@@ -3,15 +3,25 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.6.17
+# Versão 3.7.0
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.6.17-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.0-setup.exe)
 
 ## Correções
 
-* Corrige um bug ao converter uma usina não simulada para usina renovável quando a sua geração está definida como 0 para todas as etapas do estudo.
+* Corrige bug na geração de custos de combustíveis quando mês final no clast está em aberto.
+
+* Corrige erro ao ler modificação `COTAREA`
+
+* Corrige erro ao ler modificaçao de custo de combustível com valor `0`
+
+* Corrige potencia instalada de cadastro de usina térmica (`cterm*.dat`) com expansão.
+
 
 ## Atualizações
 
-* Adiciona arquivo de modificação de cadastro (MDC) para PMO de Maio de 2023. Esse MDC inclui novas pequenas usinas e cargas adicionais (c_adic).
+* Adiciona opção para leitura dos polinomios de jusante do decomp (`polinjus.dat`)
 
+* Adiciona opção para utilizar dados de fator de capacidade instalada de renováveis configurado no MDC.
+
+* Adiciona arquivo de modificação de cadastro do PMO de maior de 2024.
