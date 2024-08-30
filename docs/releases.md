@@ -4,9 +4,16 @@ nav_order: 2
 ---
 
 
-# Version 3.7.0
+# Version 3.7.1
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.0-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.1-setup.exe)
+
+## Fixes
+
+- Increases maximum number of years up to 30.
+
+
+# Version 3.7.0
 
 ## Fixes
 
