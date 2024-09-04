@@ -4,9 +4,16 @@ nav_order: 2
 ---
 
 
-# Version 3.7.1
+# Version 3.7.2
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.1-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.2-setup.exe)
+
+## Fixes
+
+- Increase number of additional loads (C_ADIC) up to 30.
+
+
+# Version 3.7.1
 
 ## Fixes
 
