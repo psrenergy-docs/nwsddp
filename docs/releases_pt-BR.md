@@ -3,9 +3,36 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.7.2
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.2-setup.exe)
+
+## Correções
+
+- Aumenta o número de cargas adicionais para 30.
+
+
+# Versão 3.7.1
+
+## Correções
+
+- Aumenta número máximo de anos para 30.
+
+
 # Versão 3.7.0
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.0-setup.exe)
+## Correções
+
+- Corrige bug na conversão de preços de combustível quando o ultimo mês está em branco
+
+- Corrige erro na leitura de modificações `COTAREA`
+
+- Corrige erro na leitura de modificações de preço de combustível com valor igual a `0`
+
+- Corrige capacidade instalada inicial de térmicas (`cterm*.dat`) quando há expansão.
+
+
+# Versão 3.6.17
 
 ## Correções
 
