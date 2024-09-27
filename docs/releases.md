@@ -4,9 +4,21 @@ nav_order: 2
 ---
 
 
-# Version 3.7.2
+# Version 3.7.3
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.2-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.3-setup.exe)
+
+## Fixes
+
+- Fix reading caso.dat
+- Fix reading `NC` plants from CONFT.dat
+
+## Updates
+
+- Update PMO 2024/05 MDC.
+
+
+# Version 3.7.2
 
 ## Fixes
 

@@ -3,9 +3,18 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.2
+# Versão 3.7.3
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.2-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.3-setup.exe)
+
+## Correções
+
+- Correção na leitura de caso.dat.
+- Correção na leitura do CONFT.dat quando houver usinas tipo NC.
+- Atualização do MDC para PMO 2024/05 com anos adicionais de Belo Monte.
+
+
+# Versão 3.7.2
 
 ## Correções
 
