@@ -3,7 +3,7 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Versão 3.7.4
+# Version  3.7.4
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
 
