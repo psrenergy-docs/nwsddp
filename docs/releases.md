@@ -3,10 +3,19 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Versão 3.7.4
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+
+## Updates
+
+- Add support to the new electrical constraints file - converted into generic constraints.
+- Add support to new downstream polynomials data - but not used in table calculations.
+- Add support to max. and min. turbining with TURBMINT/TURBMAXT modification codes.
+- By default will fix all inflows historical values.
+
 
 # Version 3.7.3
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.3-setup.exe)
 
 ## Fixes
 

@@ -3,9 +3,19 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.3
+# Versão 3.7.4
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.3-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+
+## Atualizações
+
+- Suporte ao novo formato de restrições elétricas - convertidas em restrições genéricas.
+- Suporte ao novo formato de polinomio de jusante - entretanto ainda não utilizadas.
+- Suporte a modificação de turbinamento mínimo e máximo TURBMINT/TURBMAXT.
+- Por padrão irá corrigir todo o histórico de vazões.
+
+
+# Versão 3.7.3
 
 ## Correções
 
