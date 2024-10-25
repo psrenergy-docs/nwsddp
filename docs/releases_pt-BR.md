@@ -3,9 +3,17 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.4
+# Versão 3.7.5
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+
+## Atualizações
+
+- Altera opções default do SDDP para que se utilizem todos os blocos na política.
+- Correção na falta do indices.csv.
+
+
+# Versão 3.7.4
 
 ## Atualizações
 

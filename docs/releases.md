@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version  3.7.4
+# Version  3.7.5
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+
+## Updates
+
+- Change default SDDP settings, update stage resolution to use all blocks in policy.
+- Fix issue when indices.csv is missing.
+
+# Version  3.7.4
 
 ## Updates
 
