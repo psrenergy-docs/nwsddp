@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version  3.7.5
+# Version  3.7.6
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.6-setup.exe)
+
+## Fixes
+
+- Fix reading system and fuel data from PDE cases.
+
+
+# Version  3.7.5
 
 ## Updates
 

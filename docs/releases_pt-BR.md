@@ -3,9 +3,16 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.5
+# Versão 3.7.6
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.4-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.6-setup.exe)
+
+## Correções
+
+- Correção na leitura de dados de sistemas e classe de combustíveis de casos PDE.
+
+
+# Versão 3.7.5
 
 ## Atualizações
 
