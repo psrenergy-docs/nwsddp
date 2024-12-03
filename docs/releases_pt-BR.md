@@ -3,9 +3,16 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.6
+# Versão 3.7.7
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.6-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.7-setup.exe)
+
+## Correções
+
+- Corrige leitura da modificação VOLCOTA de hidrelétricas.
+
+
+# Versão 3.7.6
 
 ## Correções
 
