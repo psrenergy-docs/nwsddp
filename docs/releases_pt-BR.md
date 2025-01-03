@@ -3,13 +3,28 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.7
+# Versão 3.7.8
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.7-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.8-setup.exe)
 
 ## Correções
 
-- Corrige leitura da modificação VOLCOTA de hidrelétricas.
+- Corrige leitura da modificação tipo `VOLMIN` quando o volume mínimo especificado supera o volume máximo de cadastro da usina.
+
+- Correção na leitura de modificações `VOLCOTA` e `COTAREA` para aceitar comprimento variavel.
+
+- Correção nos limites das restrições elétricas.
+
+## Atualizações
+
+- Adiciona MDC para PMO 2025/01.
+
+
+# Versão 3.7.7
+
+## Correções
+
+- Corrige leitura da modificação `VOLCOTA` de hidrelétricas.
 
 
 # Versão 3.7.6
