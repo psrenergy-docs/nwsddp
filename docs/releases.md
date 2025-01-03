@@ -3,30 +3,37 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version  3.7.7
+# Version 3.7.8
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.7-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.8-setup.exe)
 
 ## Fixes
 
-- Fix reading VOLCOTA hydro plant modification.
+- Fix reading `VOLMIN` modification when the specified minimum volume is greater than plant's maximum volume.
 
 
-# Version  3.7.6
+# Version 3.7.7
+
+## Fixes
+
+- Fix reading `VOLCOTA` hydro plant modification.
+
+
+# Version 3.7.6
 
 ## Fixes
 
 - Fix reading system and fuel data from PDE cases.
 
 
-# Version  3.7.5
+# Version 3.7.5
 
 ## Updates
 
 - Change default SDDP settings, update stage resolution to use all blocks in policy.
 - Fix issue when indices.csv is missing.
 
-# Version  3.7.4
+# Version 3.7.4
 
 ## Updates
 
