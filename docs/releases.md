@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.7.8
+# Version 3.7.10
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.8-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.10-setup.exe)
+
+## Updates
+
+- Add PMO 2025/02 MDC.
+
+
+# Version 3.7.8
 
 ## Fixes
 
