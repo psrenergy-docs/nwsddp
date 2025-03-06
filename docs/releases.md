@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.7.10
+# Version 3.7.11
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.10-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.11-setup.exe)
+
+## Fixes
+
+- Fix reading clast when in patch step.
+
+
+# Version 3.7.10
 
 ## Updates
 
