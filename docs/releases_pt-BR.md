@@ -3,9 +3,16 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.11
+# Versão 3.7.12
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.11-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.12-setup.exe)
+
+## Atualizações
+
+- Adiciona MDC para PMO 2025/03.
+
+
+# Versão 3.7.11
 
 ## Correções
 
