@@ -3,9 +3,15 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.7.12
+# Version 3.7.13
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.12-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.13-setup.exe)
+
+## Fixes
+
+- Fix reading `restricao-eletrica.csv` with UTF-8 encoding and latin characters.
+
+# Version 3.7.12
 
 ## Updates
 
