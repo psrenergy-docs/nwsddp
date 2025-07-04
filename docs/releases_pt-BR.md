@@ -3,9 +3,21 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.13
+# Versão 3.7.14
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.13-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.14-setup.exe)
+
+## Correções
+
+- Corrige conversão de dados de irrigação.
+- Corrige leitura dos dados de irrigação do PDE34.
+
+## Atualizações
+
+- Opção de correção de vazões negativas considerando o histórico completo ativada por padrão.
+
+
+# Versão 3.7.13
 
 ## Correções
 

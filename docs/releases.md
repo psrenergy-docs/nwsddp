@@ -3,9 +3,21 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.7.13
+# Version 3.7.14
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.13-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.14-setup.exe)
+
+## Fixes
+
+- Fix converting irrigation data
+- Fix reading irrigation data from PDE34
+
+## Updates
+
+- Fixing negative inflows considering entire history is set by default.
+
+
+# Version 3.7.13
 
 ## Fixes
 
