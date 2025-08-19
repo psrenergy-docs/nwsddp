@@ -3,9 +3,23 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.14
+# Versão 3.7.17
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.14-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)
+
+## Correções
+
+- Corrige conversão de dados de irrigação e consideração da irrigação definida no arquivos de modificação de cadastro.
+
+
+# Versão 3.7.15
+
+## Atualizações
+
+- Opção de corrigir vazões incrementais negativas utilizando o histórico completo selecionada por padrão.
+
+
+# Versão 3.7.14
 
 ## Correções
 

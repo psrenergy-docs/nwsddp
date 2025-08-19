@@ -3,6 +3,24 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.17
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)
+
+## Fixes
+
+- Fix converting irrigation data and considering irrigation defined at MDC files.
+
+
+# Version 3.7.15
+
+## Updates
+
+- Fix negative inflows by considering the entire inflow history option selected by default.
+
+- Opção de corrigir vazões incrementais negativas utilizando o histórico completo selecionada por padrão.
+
+
 # Version 3.7.14
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.14-setup.exe)
