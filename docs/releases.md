@@ -3,6 +3,19 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.19
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)
+
+## Fixes
+
+- Fix converting grid constraints (restricoes-eletricas.csv):
+
+  - Considering the interconnection direction when defining constraints coefficients
+
+  - Considering blocks' average values for constraints limits
+
+
 # Version 3.7.17
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)

@@ -3,6 +3,21 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.7.19
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)
+
+## Correções
+
+
+- Corrige conversão das restrições elétricas (restricoes-eletricas.csv):
+
+  - Considera o sentido da interconexão ao definir os coeficientes da restrição genérica;
+
+  - Considera o valor médio dos patamares na definição dos limites.
+
+
+
 # Versão 3.7.17
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)
