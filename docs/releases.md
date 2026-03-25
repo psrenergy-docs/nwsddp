@@ -3,6 +3,23 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.20
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)
+
+## Updates
+
+- Add PMO 2026/02+ MDC.
+
+- Converting ADTERM data - must-run thermal plants created to represent lag period with forced generation.
+
+## Fixes
+
+- Fix converting grid constraints (restricoes-eletricas.csv):
+
+  - Considering blocks' duration for average constraints limits
+
+
 # Version 3.7.19
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)

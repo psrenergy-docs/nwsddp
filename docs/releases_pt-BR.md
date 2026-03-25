@@ -3,6 +3,24 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.7.20
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)
+
+
+## Atualizações
+
+- Adiciona MDC para PMO 2026/02+.
+
+- Converte dados do ADTERM - termicas must-run criadas para representar periodo de lag com geração forçada.
+
+## Correções
+
+- Corrige conversão das restrições elétricas (restricoes-eletricas.csv):
+
+  - Considera a duração dos patamares no cálculo do limite.
+
+
 # Versão 3.7.19
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)
