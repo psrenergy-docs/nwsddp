@@ -3,6 +3,15 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.7.21
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)
+
+## Correções
+
+- Corrige conversão do ADTERM para que a usina must-run tenha capacidade definida no inicio do estudo.
+
+
 # Versão 3.7.20
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)

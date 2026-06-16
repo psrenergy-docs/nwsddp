@@ -3,6 +3,15 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.21
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)
+
+## Fixes
+
+- Fix converting ADTERM data so the must-run plant has the capacity set in the beginning of the study.
+
+
 # Version 3.7.20
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)
