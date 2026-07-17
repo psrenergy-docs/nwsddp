@@ -3,6 +3,19 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.22
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.22-setup.exe)
+
+## Fixes
+
+- Fix converting EE plants with disabled machines (MODIF's NUMMAQ change).
+
+## Features
+
+- Add new option to convert thermal plant minimum generation units from MW to %.
+
+
 # Version 3.7.21
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)

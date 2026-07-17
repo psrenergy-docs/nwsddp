@@ -3,6 +3,20 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Version 3.7.22
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.22-setup.exe)
+
+## Correções
+
+- Fix converting EE plants (existing with planned expansion) with disabled machines via MODIF's NUMMAQ change.
+- Corrige conversão de usinas tipo EE (existentes com expansão planejada) com máquinas desativadas através do campo NUMMAQ do MODIF.dat.
+
+## Novidades
+
+- Adiciona nova opção para converter as unidades da geração mínima das usinas térmicas de MW para %.
+
+
 # Versão 3.7.21
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)
