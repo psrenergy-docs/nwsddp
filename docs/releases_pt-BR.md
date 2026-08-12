@@ -3,13 +3,19 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Version 3.7.22
+# Version 3.7.25
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.22-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.25-setup.exe)
 
 ## Correções
 
-- Fix converting EE plants (existing with planned expansion) with disabled machines via MODIF's NUMMAQ change.
+- Adiciona validação de dados errados no modif.dat e exph.dat.
+
+
+# Version 3.7.22
+
+## Correções
+
 - Corrige conversão de usinas tipo EE (existentes com expansão planejada) com máquinas desativadas através do campo NUMMAQ do MODIF.dat.
 
 ## Novidades
@@ -19,17 +25,12 @@ nav_order: 2
 
 # Versão 3.7.21
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)
-
 ## Correções
 
 - Corrige conversão do ADTERM para que a usina must-run tenha capacidade definida no inicio do estudo.
 
 
 # Versão 3.7.20
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)
-
 
 ## Atualizações
 
@@ -46,8 +47,6 @@ nav_order: 2
 
 # Versão 3.7.19
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)
-
 ## Correções
 
 
@@ -60,8 +59,6 @@ nav_order: 2
 
 
 # Versão 3.7.17
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)
 
 ## Correções
 
@@ -95,8 +92,6 @@ nav_order: 2
 
 
 # Versão 3.7.12
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.12-setup.exe)
 
 ## Atualizações
 

@@ -3,9 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
-# Version 3.7.22
+# Version 3.7.25
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.22-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.25-setup.exe)
+
+## Fixes
+
+- Add validation for modif.dat and exph.dat with wrong values.
+
+
+# Version 3.7.22
 
 ## Fixes
 
@@ -18,16 +25,12 @@ nav_order: 2
 
 # Version 3.7.21
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.21-setup.exe)
-
 ## Fixes
 
 - Fix converting ADTERM data so the must-run plant has the capacity set in the beginning of the study.
 
 
 # Version 3.7.20
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.20-setup.exe)
 
 ## Updates
 
@@ -44,8 +47,6 @@ nav_order: 2
 
 # Version 3.7.19
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.19-setup.exe)
-
 ## Fixes
 
 - Fix converting grid constraints (restricoes-eletricas.csv):
@@ -56,8 +57,6 @@ nav_order: 2
 
 
 # Version 3.7.17
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.17-setup.exe)
 
 ## Fixes
 
@@ -74,8 +73,6 @@ nav_order: 2
 
 
 # Version 3.7.14
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.14-setup.exe)
 
 ## Fixes
 
