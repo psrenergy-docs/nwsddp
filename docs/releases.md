@@ -3,6 +3,22 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.27
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.27-setup.exe)
+
+## Fixes
+
+- Fix importing CCEE decks from the 09/2026 PMO onwards, which leave the months before the study start blank in PATAMAR.DAT (interchange and non-simulated plant factors).
+- Fix reading NEWAVE files saved with different text encodings (UTF-8 or Latin-1), such as the 09/2026 PMO DGER.DAT.
+- Fix the final year of the irrigation withdrawal conversion, now taken from the number of study years in NEWAVE's DGER.DAT.
+
+## Features
+
+- Add new option (HTAB, disabled by default) to generate the storage x maximum turbined outflow table, representing the loss of available power due to reservoir depletion as in NEWAVE.
+- Add PDE 2035 MDC.
+
+
 # Version 3.7.25
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.25-setup.exe)
