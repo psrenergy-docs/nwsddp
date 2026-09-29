@@ -3,6 +3,15 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.7.28
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.28-setup.exe)
+
+## Correções
+
+- Corrige erro de execução na leitura das cargas adicionais (C_ADIC.DAT): o limite de cargas adicionais passou de 30 para 200, e registros inconsistentes (cargas além do limite, subsistemas não cadastrados, anos fora do horizonte do estudo ou linhas mal formatadas) passam a ser ignorados com aviso, sem interromper a conversão.
+
+
 # Versão 3.7.27
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.27-setup.exe)
