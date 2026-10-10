@@ -3,6 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.7.29
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.29-setup.exe)
+
+## Fixes
+
+- Fix on MDC handling of the user interface.
+- Keep settings from previous installed versions.
+
+
 # Version 3.7.28
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.28-setup.exe)

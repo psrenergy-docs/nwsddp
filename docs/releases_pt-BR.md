@@ -3,9 +3,17 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
-# Versão 3.7.28
+# Versão 3.7.29
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.28-setup.exe)
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.29-setup.exe)
+
+## Correções
+
+- Corrige tratamento de arquivos MDC pela interface.
+- Mantém configurações de versões anteriores do conversor.
+
+
+# Versão 3.7.28
 
 ## Correções
 
@@ -13,8 +21,6 @@ nav_order: 2
 
 
 # Versão 3.7.27
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.27-setup.exe)
 
 ## Correções
 
@@ -29,8 +35,6 @@ nav_order: 2
 
 
 # Version 3.7.25
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.25-setup.exe)
 
 ## Correções
 
