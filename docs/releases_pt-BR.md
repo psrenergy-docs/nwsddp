@@ -3,6 +3,25 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.8.0
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.0-setup.exe)
+
+## Novidades
+
+- Nova interface gráfica.
+- A instalação não exige mais permissões de administrador.
+
+
+# Versão 3.7.30
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.30-setup.exe)
+
+## Novidades
+
+- Adiciona janela de diagnóstico de problemas de licença.
+
+
 # Versão 3.7.29
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.29-setup.exe)

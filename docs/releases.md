@@ -3,6 +3,25 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.8.0
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.0-setup.exe)
+
+## Features
+
+- New graphical user interface.
+- Installation no longer requires administrator rights.
+
+
+# Version 3.7.30
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.30-setup.exe)
+
+## Features
+
+- Add a license troubleshooting window.
+
+
 # Version 3.7.29
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.29-setup.exe)
@@ -15,16 +34,12 @@ nav_order: 2
 
 # Version 3.7.28
 
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.28-setup.exe)
-
 ## Fixes
 
 - Fix a runtime error while reading additional loads (C_ADIC.DAT): the limit of additional loads was raised from 30 to 200, and inconsistent records (loads beyond the limit, unregistered subsystems, years outside the study horizon or malformed lines) are now skipped with a warning instead of stopping the conversion.
 
 
 # Version 3.7.27
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.27-setup.exe)
 
 ## Fixes
 
@@ -39,8 +54,6 @@ nav_order: 2
 
 
 # Version 3.7.25
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.25-setup.exe)
 
 ## Fixes
 
