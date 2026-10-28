@@ -3,6 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.8.1
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.1-setup.exe)
+
+## Fixes
+
+- Support the NEWAVE 31 HIDR.DAT format (PMO 11/2026), whose records are longer and no longer include the tailwater polynomials: these are now read from POLINJUS.CSV.
+- More accurate area x elevation polynomial evaluation.
+
+
 # Version 3.7.31
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.31-setup.exe)
@@ -24,8 +34,6 @@ nav_order: 2
 
 
 # Version 3.7.30
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.30-setup.exe)
 
 ## Features
 

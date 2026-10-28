@@ -3,6 +3,16 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.8.1
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.1-setup.exe)
+
+## Correções
+
+- Suporte ao formato do HIDR.DAT do NEWAVE 31 (PMO 11/2026), com registros maiores e sem os polinômios de jusante: estes passam a ser lidos do POLINJUS.CSV.
+- Cálculo mais preciso do polinômio cota x área.
+
+
 # Versão 3.7.31
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.31-setup.exe)
@@ -24,8 +34,6 @@ nav_order: 2
 
 
 # Versão 3.7.30
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.30-setup.exe)
 
 ## Novidades
 
