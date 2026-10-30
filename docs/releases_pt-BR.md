@@ -3,6 +3,24 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.8.2
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.2-setup.exe)
+
+## Correções
+
+- NEWAVE 31 (PMO 11/2026): usinas de regulação diária e semanal (D/S) que passaram a ter faixa de volume no HIDR.DAT continuam a fio d'água, em um volume de referência, em vez de ganhar armazenamento e reduzir o coeficiente de produção. O volume é a média no estudo do VOLUMES-REFERENCIA.CSV, quando varia, ou o volume de referência do HIDR.DAT. Vale com a opção NFIO (ligada por padrão); VOLMIN/VOLMAX no MODIF.DAT têm precedência.
+
+
+# Versão 3.7.32
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.32-setup.exe)
+
+## Correções
+
+- NEWAVE 31 (PMO 11/2026): usinas de regulação diária e semanal (D/S) que passaram a ter faixa de volume no HIDR.DAT continuam a fio d'água, em um volume de referência, em vez de ganhar armazenamento e reduzir o coeficiente de produção. O volume é a média no estudo do VOLUMES-REFERENCIA.CSV, quando varia, ou o volume de referência do HIDR.DAT. Vale com a opção NFIO (ligada por padrão); VOLMIN/VOLMAX no MODIF.DAT têm precedência.
+
+
 # Versão 3.8.1
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.1-setup.exe)
