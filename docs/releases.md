@@ -3,6 +3,15 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.8.3
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.3-setup.exe)
+
+## Fixes
+
+- GUI: the PSR Factory license window sizes its buttons to their captions and widens to fit them, so the captions are no longer cut off with Windows display scaling (125%, 150%) or in Portuguese and Spanish.
+
+
 # Version 3.8.2
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.2-setup.exe)

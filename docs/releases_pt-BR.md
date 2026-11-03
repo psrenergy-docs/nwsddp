@@ -3,6 +3,15 @@ title: Release Notes (pt-BR)
 nav_order: 2
 ---
 
+# Versão 3.8.3
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.3-setup.exe)
+
+## Correções
+
+- Interface: a janela de licença do PSR Factory dimensiona os botões conforme o texto e aumenta para acomodá-los, de modo que os textos não ficam mais cortados com a escala de exibição do Windows (125%, 150%) ou em português e espanhol.
+
+
 # Versão 3.8.2
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.2-setup.exe)
