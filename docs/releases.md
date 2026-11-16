@@ -9,8 +9,7 @@ nav_order: 2
 
 ## Fixes
 
-- GUI: the update check finds new NwSddp 3.x versions again (3.8.2 and 3.8.3 were not offered), and a newer line (3.9) is offered on its own after any update within the installed line.
-- Requires PSR Factory 5.0.0b187 or later.
+- GUI: the update check finds new NwSddp 3.x versions again (3.8.2 and 3.8.3 were not offered).
 
 
 # Version 3.8.3
