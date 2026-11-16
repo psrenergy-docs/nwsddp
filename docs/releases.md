@@ -3,6 +3,16 @@ title: Release Notes
 nav_order: 2
 ---
 
+# Version 3.8.4
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.4-setup.exe)
+
+## Fixes
+
+- GUI: the update check finds new NwSddp 3.x versions again (3.8.2 and 3.8.3 were not offered), and a newer line (3.9) is offered on its own after any update within the installed line.
+- Requires PSR Factory 5.0.0b187 or later.
+
+
 # Version 3.8.3
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.3-setup.exe)
