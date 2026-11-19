@@ -5,6 +5,17 @@ nav_order: 2
 
 > **A série 3.7.x está descontinuada.** Ela não terá novas versões; atualize para a série 3.8.x, que inclui todas as correções da 3.7.x e a nova interface gráfica.
 
+# Versão 3.8.6
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.6-setup.exe)
+
+## Correções
+
+- Restrições elétricas (`restricao-eletrica.csv` → `genctr.dat`): os termos de fluxo de intercâmbio (`ener_interc`) voltam a receber coeficiente -1 quando o sentido no NEWAVE é oposto ao da interconexão no SDDP (De → Para). Com as versões atuais do PSR Factory, todos os termos saíam com +1, e essas restrições limitavam o fluxo no sentido errado.
+- Agrupamentos de intercâmbio (`AGRINT.DAT`): mesma correção para os coeficientes das interconexões de cada grupo.
+- Requer o PSR Factory 5.0.0b189 ou mais recente.
+
+
 # Versão 3.8.5
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.5-setup.exe)

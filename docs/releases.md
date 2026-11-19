@@ -5,6 +5,17 @@ nav_order: 2
 
 > **The 3.7.x series is deprecated.** It will get no further releases; please upgrade to the 3.8.x series, which carries every 3.7.x fix plus the new graphical interface.
 
+# Version 3.8.6
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.6-setup.exe)
+
+## Fixes
+
+- Electric constraints (`restricao-eletrica.csv` → `genctr.dat`): the interconnection flow terms (`ener_interc`) again get a -1 coefficient when the NEWAVE direction is opposite to the SDDP interconnection (From → To). With current PSR Factory versions every term was written as +1, so those constraints limited the flow in the wrong direction.
+- Interconnection sums (`AGRINT.DAT`): same fix for the coefficients of the interconnections in each group.
+- Requires PSR Factory 5.0.0b189 or newer.
+
+
 # Version 3.8.5
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.5-setup.exe)
