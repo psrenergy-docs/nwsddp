@@ -3,6 +3,8 @@ title: Release Notes
 nav_order: 2
 ---
 
+> **The 3.7.x series is deprecated.** It will get no further releases; please upgrade to the 3.8.x series, which carries every 3.7.x fix plus the new graphical interface.
+
 # Version 3.8.4
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.4-setup.exe)
@@ -24,15 +26,6 @@ nav_order: 2
 # Version 3.8.2
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.2-setup.exe)
-
-## Fixes
-
-- NEWAVE 31 (PMO 11/2026): daily and weekly regulation plants (D/S) that gained a volume range in HIDR.DAT stay run-of-river, at a reference volume, instead of adding storage and lowering their production coefficient. The volume is the study mean of VOLUMES-REFERENCIA.CSV when it varies, otherwise the HIDR.DAT reference volume. This applies with the NFIO option (on by default); VOLMIN/VOLMAX in MODIF.DAT take precedence.
-
-
-# Version 3.7.32
-
-🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.7.32-setup.exe)
 
 ## Fixes
 
