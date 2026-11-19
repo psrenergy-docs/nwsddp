@@ -5,6 +5,15 @@ nav_order: 2
 
 > **A série 3.7.x está descontinuada.** Ela não terá novas versões; atualize para a série 3.8.x, que inclui todas as correções da 3.7.x e a nova interface gráfica.
 
+# Versão 3.8.5
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.5-setup.exe)
+
+## Correções
+
+- Instalador: quando um antivírus bloqueia um executável, a mensagem de erro agora mostra o motivo (código de erro do Windows) e avisa quando o antivírus removeu o arquivo durante a extração.
+
+
 # Versão 3.8.4
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.4-setup.exe)

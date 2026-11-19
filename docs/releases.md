@@ -5,6 +5,15 @@ nav_order: 2
 
 > **The 3.7.x series is deprecated.** It will get no further releases; please upgrade to the 3.8.x series, which carries every 3.7.x fix plus the new graphical interface.
 
+# Version 3.8.5
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.5-setup.exe)
+
+## Fixes
+
+- Setup: when an antivirus blocks an executable, the error message now shows the reason (Windows error code), and says so when the antivirus removed the file during extraction.
+
+
 # Version 3.8.4
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=nwsddp-3.8.4-setup.exe)
