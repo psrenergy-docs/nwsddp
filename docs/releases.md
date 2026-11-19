@@ -11,7 +11,7 @@ nav_order: 2
 
 ## Fixes
 
-- Electric constraints (`restricao-eletrica.csv` → `genctr.dat`): the interconnection flow terms (`ener_interc`) again get a -1 coefficient when the NEWAVE direction is opposite to the SDDP interconnection (From → To). With current PSR Factory versions every term was written as +1, so those constraints limited the flow in the wrong direction.
+- Electric constraints (`restricao-eletrica.csv` → `genctr.dat`): the interconnection flow terms (`ener_interc`) again get a -1 coefficient when the NEWAVE direction is opposite to the SDDP interconnection (From → To).
 - Interconnection sums (`AGRINT.DAT`): same fix for the coefficients of the interconnections in each group.
 - Requires PSR Factory 5.0.0b189 or newer.
 

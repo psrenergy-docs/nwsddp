@@ -11,7 +11,7 @@ nav_order: 2
 
 ## Correções
 
-- Restrições elétricas (`restricao-eletrica.csv` → `genctr.dat`): os termos de fluxo de intercâmbio (`ener_interc`) voltam a receber coeficiente -1 quando o sentido no NEWAVE é oposto ao da interconexão no SDDP (De → Para). Com as versões atuais do PSR Factory, todos os termos saíam com +1, e essas restrições limitavam o fluxo no sentido errado.
+- Restrições elétricas (`restricao-eletrica.csv` → `genctr.dat`): os termos de fluxo de intercâmbio (`ener_interc`) voltam a receber coeficiente -1 quando o sentido no NEWAVE é oposto ao da interconexão no SDDP (De → Para).
 - Agrupamentos de intercâmbio (`AGRINT.DAT`): mesma correção para os coeficientes das interconexões de cada grupo.
 - Requer o PSR Factory 5.0.0b189 ou mais recente.
 
